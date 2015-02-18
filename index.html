@@ -1,9 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blog test page</title>
+    <title>Pro out</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+	<script>
+	var countDownApp = angular.module("countDownApp", [ /* No Dependency Injection */ ]);
+
+countDownApp.controller("countDownController", ['$scope', '$timeout', function ($scope, $timeout) {
+    $scope.days = '';
+    $scope.hours = '';
+    $scope.minutes = '';
+    $scope.seconds = '';
+
+    $scope.date = new Date();
+    $scope.dateDiff = '';
+    //$scope.counter = 0;
+    
+    var finishDate = new Date(new Date().getFullYear(), 3, 1);
+    
+    var stopped;
+    
+    $scope.countDownStart = function() {
+        stopped = $timeout(function() {
+            //TODO some job here
+            console.log('count down');
+            $scope.date = new Date();
+            //$scope.counter++;
+            //$scope.days = $scope.date.getDate();
+            $scope.dateDiff = new Date(finishDate - new Date());
+            $scope.days = $scope.dateDiff.getDate() + $scope.dateDiff.getMonth() * 31;
+            $scope.hours = $scope.dateDiff.getHours();
+            $scope.minutes = $scope.dateDiff.getMinutes();
+            $scope.seconds = $scope.dateDiff.getSeconds();
+            $scope.countDownStart();
+        }, 1000);
+    }
+    
+    $scope.countDownStop = function() {
+        console.log('try to stop');
+        $timeout.cancel(stopped);
+    }
+    
+    $scope.init = function() {
+        console.log('try to start');
+        $scope.countDownStart();    
+    }
+
+}]);
+	</script>
 </head>
 <body>
-  <p>My blog starting page</p>
+	<div ng-app="countDownApp">
+		<div class="container" ng-controller="countDownController">
+			<div class="panel panel-default">
+				<div class="panel-heading">Proa out</div>
+				<div class="panel-body" ng-init="init()">
+					<div class="row">
+						
+					</div>
+					<p>{{days}} dni {{hours}} godziny {{minutes}} minuty {{seconds}} sekundy</p>
+				   <!--  <p ng-bind="date"></p>
+					<p ng-bind="dateDiff"></p> -->
+					
+				</div>
+			</div>
+		  <!--   <button ng-click="init()">Start</button>
+			<button ng-click="countDownStop()">Stop</button> -->
+		</div>
+		
+	</div>
 </body>
 </html>
