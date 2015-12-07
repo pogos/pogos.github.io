@@ -1,9 +1,0 @@
-1. Requirements for todo manager
-- cyclic events
-- today checklist
-
-2. Technology
-  - nodejs
-  - angularjs
-  -mongodb
-  
