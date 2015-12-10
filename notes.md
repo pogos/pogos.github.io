@@ -23,9 +23,11 @@
   
 #### Stock Advisor
 1. Requirements
+    - retrive stock data form internet
+    - show graphs for choosen company
 
 2. Technology
- play framework
+    - play framework
 
 #### Data generator
 1. Requirements
