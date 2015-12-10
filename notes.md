@@ -17,9 +17,9 @@
     - today checklist
 
 2. Technology
-  - nodejs
-  - angularjs
-  - mongodb
+      - nodejs
+      - angularjs
+      - mongodb
   
 #### Stock Advisor
 1. Requirements
