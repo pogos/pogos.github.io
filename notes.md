@@ -1,19 +1,20 @@
 # Application ideas
 
 
+
 #### English master
 1. Requirements
 
 2. Technology
-- spring boot
-- angularjs
-- postgresql or mysql
+    - spring boot
+    - angularjs
+    - postgresql or mysql
 
 #### Todo Manager
 
 1. Requirements for todo manager
-- cyclic events
-- today checklist
+    - cyclic events
+    - today checklist
 
 2. Technology
   - nodejs
@@ -28,12 +29,13 @@
 
 #### Data generator
 1. Requirements
- - pesel generator
- - nip generator
- - regon generator
- - create csv with first name, last name, pesel
+    - pesel generator
+    - nip generator
+    - regon generator
+    - create csv with first name, last name, pesel
 
 2. Technology
+    - AngularJS
 
 
 
