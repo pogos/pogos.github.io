@@ -20,3 +20,7 @@ https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-jas
 http://overapi.com/static/cs/javascript_cheat_sheet.pdf
 http://overapi.com/javascript/
 http://javascript.info/tutorial/oop
+
+###npm 
+https://quickleft.com/blog/creating-and-publishing-a-node-js-module/
+https://nodesource.com/blog/your-first-nodejs-package/
