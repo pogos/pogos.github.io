@@ -24,5 +24,4 @@ http://javascript.info/tutorial/oop
 ###npm 
 https://quickleft.com/blog/creating-and-publishing-a-node-js-module/
 https://nodesource.com/blog/your-first-nodejs-package/
-
 https://github.com/davglass/express-session-mongo
