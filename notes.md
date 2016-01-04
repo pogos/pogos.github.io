@@ -48,4 +48,23 @@
 
 [Agile - HOW TO SPLIT A USER STORY](http://www.agileforall.com/wp-content/uploads/2012/01/Story-Splitting-Flowchart.pdf)
 
+#####Spring oauth2 logout
 
+```
+@Controller
+public class OAuthController {
+    @Autowired
+    private TokenStore tokenStore;
+
+    @RequestMapping(value = "/oauth/revoke-token", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public void logout(HttpServletRequest request) {
+        String authHeader = request.getHeader("Authorization");
+        if (authHeader != null) {
+            String tokenValue = authHeader.replace("Bearer", "").trim();
+            OAuth2AccessToken accessToken = tokenStore.readAccessToken(tokenValue);
+            tokenStore.removeAccessToken(accessToken);
+        }
+    }
+}
+```
