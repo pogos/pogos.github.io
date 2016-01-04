@@ -50,7 +50,7 @@
 
 #####Spring oauth2 logout
 
-```
+``` java
 @Controller
 public class OAuthController {
     @Autowired
