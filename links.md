@@ -37,3 +37,7 @@ https://quickleft.com/blog/creating-and-publishing-a-node-js-module/
 https://nodesource.com/blog/your-first-nodejs-package/
 
 https://github.com/davglass/express-session-mongo
+
+###Inwestycje
+http://www.parkiet.com/artykul/1456830-Byki-i-niedzwiedzie-roku.html
+
