@@ -72,3 +72,6 @@ public class OAuthController {
 #### Looking for car
 http://www.opel-insignia.com.pl/viewtopic.php?f=5&t=16200
 
+#### Other
+http://jakoszczedzacpieniadze.pl/jak-oszczedzac-na-samozatrudnieniu
+
