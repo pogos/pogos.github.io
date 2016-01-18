@@ -75,3 +75,16 @@ http://www.opel-insignia.com.pl/viewtopic.php?f=5&t=16200
 #### Other
 http://jakoszczedzacpieniadze.pl/jak-oszczedzac-na-samozatrudnieniu
 
+
+### Tests
+- helper
+    - JaxRsHelper
+- invokers
+    - UserServicesInvoker
+    - QrServicesInvoker
+- processes
+    - startPageLoading
+    - usersRegistration
+    - usersAuthentication
+    - qrsSaving
+
