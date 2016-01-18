@@ -1,4 +1,14 @@
 
+### Java Tests
+http://www.indiabix.com/online-test/java-programming-test/
+
+http://www.javatpoint.com/core-java-quiz
+
+http://www.careerride.com/test.aspx?type=Core-Java
+
+http://www.javatop500.com/?gclid=CjwKEAiAt_K0BRCzjtv92_HGoR0SJAA9QNn_7OHLXJmg0yc85UmmUZDE_BqXB3IU2FdV4e5v3D-NTxoCG4jw_wcB
+
+### Others
 https://it-ebooks.info/search/?q=JavaScript&type=title&page=2
 
 https://www.packtpub.com/application-development/learning-javascript-data-structures-and-algorithms
