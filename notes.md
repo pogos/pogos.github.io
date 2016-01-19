@@ -103,3 +103,7 @@ http://jakoszczedzacpieniadze.pl/jak-oszczedzac-na-samozatrudnieniu
     - usersAuthentication
     - qrsSaving
 
+#### Java security
+https://docs.oracle.com/javase/tutorial/security/apisign/vstep1.html
+
+http://stackoverflow.com/questions/5127379/how-to-generate-a-rsa-keypair-with-a-privatekey-encrypted-with-password
