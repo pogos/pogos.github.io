@@ -72,12 +72,27 @@ public class OAuthController {
 #### Looking for car
 http://www.opel-insignia.com.pl/viewtopic.php?f=5&t=16200
 
+##### Otomoto
+
+http://allegro.pl/show_item.php?item=5921434845#2202752439
+
+http://otomoto.pl/oferta/seat-leon-seat-leon-st-fr-1-4-tsi-150-km-auto-demonstracyjne-salon-seat-ID6ydztB.html#f8b17c4af8
+
+http://otomoto.pl/oferta/citroen-c4-grand-picasso-2-0-hdi-150-km-more-life-ID6yc0gH.html#094bab2461
+
+http://otomoto.pl/oferta/seat-leon-fr-2-0-tdi-gwarancja-4-lata-dealer-plichta-vw-fv23-ID6ye1nT.html#4f55fd70e6
+
+http://otomoto.pl/oferta/skoda-octavia-rs-2-0-tsi-162-kw-220-km-start-stop-wyprzedaz-2015-ID6y6aEb.html#4f55fd70e6
+
+http://otomoto.pl/oferta/opel-insignia-gwarancja-salon-pl-fv-vat-23-edition-ID6ygpDL.html#8360e04a36
+
+
 #### Other
 http://jakoszczedzacpieniadze.pl/jak-oszczedzac-na-samozatrudnieniu
 
 
 ### Tests
-- helper
+- helpers
     - JaxRsHelper
 - invokers
     - UserServicesInvoker
