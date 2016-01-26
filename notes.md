@@ -39,7 +39,14 @@
 2. Technology
     - AngularJS
 
+#### My calendar
 
+1. Requirements
+    - add 
+    - export to excel
+
+2. Technology
+    - AngularJS
 
 ##### Usefull links:
 [Angularjs and Play Framework](http://www.toptal.com/java/building-modern-web-applications-with-angularjs-and-play-framework)
