@@ -64,3 +64,8 @@ http://www.zdroweplecy.com/cwiczenia-obrazki
 https://portal.abczdrowie.pl/cwiczenia-wzmacniajace-kregoslup-ledzwiowy
 
 http://tipy.interia.pl/artykul_6943,jak-prawidlowo-robic-brzuszki.html
+
+### English
+http://hls.harvard.edu/dept/opia/job-search-toolkit/sample-emails-to-employers/
+http://www.samplelettersworld.com/sample-letters/cover-letters/1230-respond-to-a-request-for-your-resume-sample-letter-1
+
